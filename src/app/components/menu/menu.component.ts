@@ -6,7 +6,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss'],
-  imports: [RouterLink, IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonButton],
+  imports: [RouterLink, IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem,],
 })
 export class MenuComponent  implements OnInit {
 
